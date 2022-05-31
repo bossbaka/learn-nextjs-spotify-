@@ -36,7 +36,7 @@ const Song = ({ order, track }) => {
         </div>
       </div>
 
-      <div className="ml-auto flex w-40 items-center justify-between md:ml-0">
+      <div className="ml-auto flex items-center justify-between md:ml-0">
         <p className="hidden w-40 md:inline">{track.track.album.name}</p>
         <p>{millisToMinAndSec(track.track.duration_ms)}</p>
       </div>

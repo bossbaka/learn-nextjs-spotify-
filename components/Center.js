@@ -70,8 +70,7 @@ function Center() {
         </div>
       </section>
       <div>
-        {' '}
-        <Songs />{' '}
+        <Songs />
       </div>
     </div>
   )
