@@ -67,7 +67,10 @@ function Sidebar() {
               {item.icon}
               <p>{item.lable}</p>
             </button>
-            <hr className="border-t-[0.1px] border-gray-900" />
+
+            {(index === 2 || index === 5) && (
+              <hr className="border-t-[0.1px] border-gray-900" />
+            )}
           </div>
         ))}
 

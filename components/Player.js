@@ -4,10 +4,7 @@ import { useRecoilState } from 'recoil'
 import { currentTrackIdState, isPlayingState } from '../atoms/songAtom'
 import useSpotify from '../hooks/useSpotify'
 import useSongInfo from '../hooks/useSongInfo'
-import {
-  HeartIcon,
-  VolumeUpIcon as VolumeDownIcon,
-} from '@heroicons/react/outline'
+import { VolumeUpIcon as VolumeDownIcon } from '@heroicons/react/outline'
 import {
   SwitchHorizontalIcon,
   RewindIcon,
