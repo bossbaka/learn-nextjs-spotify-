@@ -7,7 +7,6 @@ import { isPlayingState, currentTrackIdState } from '../atoms/songAtom'
 const Song = ({ order, track }) => {
   const spotifyApi = useSpotify()
 
-  console.log(track)
   const [currentTrackId, setCurrentTrackId] =
     useRecoilState(currentTrackIdState)
   const [isPlaying, setIsPlaying] = useRecoilState(isPlayingState)

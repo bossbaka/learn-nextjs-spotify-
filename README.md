@@ -1,23 +1,24 @@
-# Next.js + Tailwind CSS Example
+# learn-nextjs-spotify
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+**install node modules:** <br> _- npm or yarn_ <br>
+**run local:** <br> _- npm run dev or yarn dev_ <br>
 
-## Deploy your own
+**How to use**
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- spotify premium
+- must open the spotify in parallel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+**tech stack in project:** <br>
 
-## How to use
+- nextjs <br>
+- next-auth <br>
+- typescript <br>
+- tailwindcss <br>
+- recoil a state management library<br>
+- lodash <br>
+- spotify-web-api-node <br>
+- prettier <br>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Let's build Spotify 2.0 with NEXT.JS 12.0! (Middleware, Spotify API, Tailwind, NextAuth, Recoil)
+https://youtu.be/3xrko3GpYoU <br>
+Thank you Sonny Sangha
