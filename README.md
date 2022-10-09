@@ -5,7 +5,9 @@
 - spotify premium
 - must open the spotify in parallel
 
-**tech stack in project:** <br>
+**demo:** https://playlistsongbossbaka.vercel.app/
+
+**Tech Stack in project:** <br>
 
 - nextjs <br>
 - next-auth <br>
