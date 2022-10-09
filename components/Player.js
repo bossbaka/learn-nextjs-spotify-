@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { useRecoilState } from 'recoil'
 import { currentTrackIdState, isPlayingState } from '../atoms/songAtom'
 import useSpotify from '../hooks/useSpotify'
-import useSongInfo from '../hooks/useSongInfo'
+import useSongInfo from '../hooks/useSonginfo'
 import { VolumeUpIcon as VolumeDownIcon } from '@heroicons/react/outline'
 import {
   SwitchHorizontalIcon,
