@@ -30,7 +30,7 @@ function Player() {
   const fetchCurrentSong = () => {
     if (!songInfo) {
       spotifyApi.getMyCurrentPlayingTrack().then((data) => {
-        console.log(data.body?.item)
+        //console.log(data.body?.item)
         setCurrentTrackId(data.body?.item?.id)
 
         spotifyApi.getMyCurrentPlaybackState().then((data) => {
@@ -42,7 +42,7 @@ function Player() {
 
   const handlePlayPause = () => {
     spotifyApi.getMyCurrentPlaybackState().then((data) => {
-      console.log(data.body)
+      //console.log(data.body)
       if (data.body.is_playing) {
         spotifyApi.pause()
         setIsPlaying(false)
